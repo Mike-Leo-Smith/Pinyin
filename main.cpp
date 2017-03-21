@@ -112,7 +112,7 @@ int main(void)
 	Statistics statistics("word-statistics.dat", "phrase-statistics.dat");
 	Charset charset("charset-new.dat");
 	
-	statistics.load("passage.dat", charset, 1000);
+	//statistics.load("passage.dat", charset, 1000);    // Comment out because of privacy.
 	statistics.load("poetry-tang.dat", charset, 300);
 	statistics.load("poetry-modern.dat", charset, 300);
 	statistics.load("poetry-song.dat", charset, 200);
